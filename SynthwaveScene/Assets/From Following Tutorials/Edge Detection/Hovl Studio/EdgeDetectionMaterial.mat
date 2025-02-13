@@ -37,8 +37,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Depth_Line: 1
+    - _Depth_Line_Bias: 1
     m_Colors:
-    - _Edge_Color: {r: 0, g: 1, b: 0.80346894, a: 0}
+    - _Edge_Color: {r: 0, g: 1, b: 0.8039216, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

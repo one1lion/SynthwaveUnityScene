@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6470156994919618894
+--- !u!114 &-3498341413906581331
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sun Material
-  m_Shader: {fileID: -6465566751694194690, guid: aa11eae382ff8be4eb752c497011eade,
+  m_Name: SunMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 24e7a1a8b9de15140bd65234db8129e3,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -64,6 +64,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: be9ea7ae244c52d4fac105f1e2db2b4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalicMap:
+        m_Texture: {fileID: 2800000, guid: 469daff943de6a240959f92254b70fed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -114,6 +122,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _GradientNoisePower: 5
+    - _GradientNoiseScale: 15
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -129,11 +139,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9748427, g: 0.8082399, b: 0.260571, a: 1}
-    - _Base_Color: {r: 0.91823894, g: 0.5607969, b: 0.28586677, a: 1}
-    - _Color: {r: 0.9748427, g: 0.8082399, b: 0.26057094, a: 1}
-    - _Emission: {r: 0.6415094, g: 0.16890146, b: 0.018155817, a: 1}
+    - _BaseColor: {r: 1, g: 0.84039277, b: 0.31760997, a: 1}
+    - _Color: {r: 1, g: 0.84039277, b: 0.31760994, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GradientNoiseColor: {r: 27.37394, g: 3.897387, b: 59.0177, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
