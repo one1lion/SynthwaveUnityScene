@@ -63,7 +63,7 @@ Material:
     - _Grid_Color: {r: 1.0379357, g: 0.106664225, b: 1.9952512, a: 0}
     - _Offset_Movement_Speed: {r: 0, g: 0, b: 0, a: 0}
     - _Tile_Size: {r: 428, g: 197, b: 0, a: 0}
-    - _Tiling_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling_Offset: {r: 0.3, g: 0, b: 0, a: 0}
     - _Tiling_Subdivisions: {r: 14, g: 14, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

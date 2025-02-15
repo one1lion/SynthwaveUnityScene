@@ -52,7 +52,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Line_Thickness: 0.9
+    - _Line_Thickness: 0.88
     - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -62,7 +62,7 @@ Material:
     - _Emission_Color: {r: 0.7313673, g: 1.0371437, b: 1.0717734, a: 0}
     - _Grid_Color: {r: 0, g: 0.1439395, b: 1, a: 0}
     - _Offset_Movement_Speed: {r: 0, g: 0, b: 0, a: 0}
-    - _Tile_Size: {r: 18.1, g: 18.1, b: 0, a: 0}
+    - _Tile_Size: {r: 20.53, g: 17.4, b: 0, a: 0}
     - _Tiling_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling_Subdivisions: {r: 14, g: 14, b: 0, a: 0}
   m_BuildTextureStacks: []
