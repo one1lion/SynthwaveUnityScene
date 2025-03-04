@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: aaaba765a8419c544afa61a93a69f417
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mountainPrefab: {fileID: 3399865207203273628, guid: b2c25a70e9fde684ea5374f99b16039f,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
